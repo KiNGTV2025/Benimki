@@ -1,13 +1,20 @@
-# Core - En güncel stabiller
-aiohttp==3.11.10
-aiohttp-socks==0.9.0
-gunicorn==23.0.0
+# Core
+aiohttp==3.9.1
+aiohttp-socks==0.8.3
+gunicorn==21.2.0
 
 # Utilities
-python-dotenv==1.0.1
-beautifulsoup4==4.12.3
-lxml==5.3.0
-python-socks==2.5.2
+python-dotenv==1.0.0
+zstandard==0.22.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+python-socks==2.4.4
+
+# Crypto
+pycryptodome==3.20.0
+
+# Optional (kaldırabilirsiniz)
+# pydash2hls==0.1.0  # BU SATIRI SİLİN VEYA YORUM SATIRI YAPIN
 
 # Crypto
 pycryptodome==3.21.0
